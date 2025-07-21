@@ -1,9 +1,0 @@
-## GEMS Demo variables
-
-# $node
-Data Source Sensing0Ingest
-query : select distinct(display_name, node_id) from $project_key.meta where project = 'Gems Demo';
-regex : /\((?<text>[^,]+),(?<value>[^)]+)\)/
-
-# $project_key
-gemsdemo

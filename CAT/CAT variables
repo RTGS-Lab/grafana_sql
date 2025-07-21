@@ -1,9 +1,0 @@
-# CAT variables
-
-Data Sources
-PostreSQL Sensing0CAT
-
-variables linked to dashboard
-$node
-query : select distinct(display_name, node_id) from $project_key.meta where project = 'Malawi MET Stations';
-regex : /\((?<text>[^,]+),(?<value>[^)]+)\)/
